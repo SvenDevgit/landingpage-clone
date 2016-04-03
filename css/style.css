@@ -61,12 +61,17 @@ div {
 	padding: 0px 15px
 }
 */
-.content-background{
-    background-image: url("http://i.imgur.com/ggcP1K4.jpg");
+.introduction {
+    /*background-image: url("http://i.imgur.com/ggcP1K4.jpg");*/
+    background-image: url('../images/karmabackground.jpg');
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 45.938rem;
     padding: 15em 0;
 }
+
+
 .content-section {
     max-width: 35em;
     margin-left: auto;
