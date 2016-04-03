@@ -32,7 +32,7 @@ div {
 }
 .top-navigation  .links{
     float: right;
-    ont-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #838994;
     font-size: 16px;
     margin-top: 25px;
@@ -72,20 +72,31 @@ div {
 }
 
 
-.content-section {
+.introduction > .content {
     max-width: 35em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
+    color: white;
+
 }
 h1,h2{
 	text-align: center;
 }
 button {
+    background-color: orange;
+    color: white;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem; 
+    display: block;
+    margin:0 auto;
+}
+button:hover{
+    color: black;
+    background-color: red;
+
 }
 /*
 ul{
