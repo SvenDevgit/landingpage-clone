@@ -20,16 +20,36 @@ div {
     background-color: #fff;
 }
 .top-navigation > .content {
-    width: 970px;
+    width: 850px;
     height: 70px;
     margin: 0 auto;
+    padding: 0px 15px
+
 }
 .logo{
 	height: 70px;
 }
+.top-navigation > .content > .links{
+    float: right;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+a:link{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color:black;
+}
+/*
 div {
 	padding: 0px 15px
 }
+*/
 .content-background{
     background-image: url("http://i.imgur.com/ggcP1K4.jpg");
     background-repeat: no-repeat;
@@ -56,19 +76,4 @@ ul{
 	text-align: center;
 }
 */
-ul{
-	float: right;
-}
 
-ul li{
-	list-style-type: none;
-	display: inline;
-}
-
-a:link{
-	text-decoration: none;
-	color: grey;
-}
-a:hover{
-	color:black;
-}
