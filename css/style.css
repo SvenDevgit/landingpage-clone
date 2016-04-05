@@ -18,6 +18,9 @@ div {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .top-navigation > .content {
     width: 850px;
@@ -97,6 +100,27 @@ button:hover{
     color: black;
     background-color: red;
 
+}
+.cases{
+    background-color: white;
+    margin-top: 0;
+    padding-top: 0;
+}
+.cases > .content {
+    max-width: 35em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    color: black;
+
+}
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
 }
 /*
 ul{
