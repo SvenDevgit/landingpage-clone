@@ -15,6 +15,11 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+
+section {
+    border: 1px solid black;
+}
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -107,7 +112,7 @@ button:hover{
     padding-top: 0;
 }
 .cases > .content {
-    max-width: 35em;
+    max-width: 55em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
@@ -115,8 +120,8 @@ button:hover{
 
 }
 .cases .devices {
-    width: 33.3333333%;
-    display: inline-block;
+    width: 10em;
+    display: inline;
     /* styles to assist with debugging */
     border: 1px solid black;
     box-sizing: border-box;
